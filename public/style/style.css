@@ -7,10 +7,18 @@
 }
 
 .navbar {
-  padding: 32.9px 0px 0px 0px;
+  padding: 32.9px 0px 10px 0px;
 }
 
-.navbar .navbar-nav a {
+.container-fluid {
+  padding: 0px;
+}
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -19,7 +27,8 @@
   /* Black */
   color: #828282;
 }
-.navbar .navbar-nav a:hover {
+
+.nav-item a:hover {
   color: #070707;
 }
 
@@ -42,4 +51,130 @@
   /* Black */
 
   color: #070707;
+}
+.aboutMe {
+  background-color: #f6f6f6;
+  padding: 120px 0px 107px;
+}
+
+.skills {
+  padding: 91px 0px 110px;
+}
+
+.skillsTitle {
+  font-family: "Kanit", sans-serif;
+
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+  margin-bottom: 70px;
+}
+.portfolio {
+  background-color: #f6f6f6;
+  padding: 120px 0px 107px;
+}
+.skillsInfo {
+  font-family: "Kanit", sans-serif;
+
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+  margin-bottom: 87px;
+}
+
+.portfolioTitle {
+  font-family: "Kanit", sans-serif;
+
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+  margin-bottom: 47px;
+}
+
+.portfolioSite {
+  font-family: "Kanit", sans-serif;
+
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* Black */
+
+  color: #070707;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolioSite:hover {
+  color: #070707;
+}
+.portfolioSite img {
+  width: 90%;
+  height: 90%;
+  transition: 0.5s;
+  display: block;
+}
+
+.portfolioSite img:hover {
+  width: 95%;
+  height: 95%;
+}
+
+footer {
+  padding: 114px 0px 50px 0px;
+}
+
+.contact {
+  font-family: "Kanit", sans-serif;
+
+  font-size: 34px;
+  line-height: 42px;
+  display: flex;
+  justify-content: center;
+
+  /* Black */
+
+  color: #070707;
+  margin-bottom: 20px;
+}
+
+.con {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #828282;
+}
+
+@media (max-width: 767px) {
+  .myName {
+    font-size: 39px;
+    line-height: 39px;
+  }
+
+  .myInfo{
+    width: 100%;
+  }
 }
